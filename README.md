@@ -8,6 +8,9 @@ Rapid review of the Udacity Android Basic Nanodegree
  * [Vocabulary Glossary](https://developers.google.com/android/for-all/vocab-words/)
  * [CheatSheet: Common Android Views](https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view)
  * [Android Developers Documentation](https://developer.android.com)
+ * [BLOG: Styling Android](https://blog.stylingandroid.com/)
+ * [BLOG: Chris Banes](https://chris.banes.me/)
+ * [PODCAST: Fragmented Podcast](http://fragmentedpodcast.com/)
 
 
 
@@ -54,7 +57,8 @@ XML for Layouts/Views
  * Element Names are in camelcast
  * Exercise: Identify element name, attributes in [example](https://classroom.udacity.com/nanodegrees/nd803/parts/8031345401/modules/677455098475460/lessons/4027328704/concepts/42555185990923)
 
- XMLV = [XML Visualizer](http://labs.udacity.com/android-visualizer/?_ga=1.7577202.1373577476.1468202837#/android/text-view) (Udacity only)
+
+XMLV = [XML Visualizer](http://labs.udacity.com/android-visualizer/?_ga=1.7577202.1373577476.1468202837#/android/text-view) (Udacity only)
  * DP = Density Independent Pixels
  * Medium, High and Extra-High Resolution devices
  * DP = same physical size on all devices
@@ -62,10 +66,12 @@ XML for Layouts/Views
  * Exercise: Change View (text, size)
  * Exercise: Create an error, then undo it.
 
- Debugging
+
+Debugging
   * Getting past errors is important
   * It's a trial-and-error method
   * Strategy: read error msg, see working code, undo, stack overflow or ask for help
+
 
 Wrap Content (Views)
  * Setting absolute width/height is bad practice
@@ -94,10 +100,57 @@ Simple ImageView
  * Attribute "android:scaleType" scales that source image to make it show appropriately within the container - see [values here](https://developer.android.com/reference/android/widget/ImageView.ScaleType.html) notably *CENTER* and *CENTER_CROP*
 
 Documentation
- * Reference the [documentatio](https://developer.android.com) for latest View elements and their attribute names, values.
+ * Reference the [documentation](https://developer.android.com) for latest View elements and their attribute names, values.
  * Exercise: View TextView documentation
  * Exercise: Use new TextView attributes
 
 
-
 ## Lesson 1B: Building Layouts
+
+
+
+## Practice Set 1
+
+Hello World
+ * [View the video](https://classroom.udacity.com/nanodegrees/nd803/parts/8031345401/modules/677455098475460/lessons/4034888704/concepts/43534185610923#)
+ * [Read the instructions](https://classroom.udacity.com/courses/ud837/lessons/4034888704/concepts/41804293660923)
+
+Concepts
+ * Android Studio Version (now: 2.1.2 )
+ * Package Name
+ * Minimun SDK (use API 15 +)
+ * API Level (Version Distribution Dashboard)
+ * Use "Empty Activity" (leave defaults)
+
+[Android Studio Tour](https://classroom.udacity.com/nanodegrees/nd803/parts/8031345401/modules/677455098475460/lessons/4034888704/concepts/43534185620923)
+ * Android mode = shows logical grouping of files
+ * Project mode = shows actual files in directory
+ * Use "Android" mode
+ * app/java = source, app/res = resources (XML)
+ * Layout file = Design/Text views
+ * Design view = drag-and-drop views into layout
+ * Text view = easier to read/edit for attributes
+
+Running on Device
+ * Set phone into "Developer" mode
+ * Install driver on development device (PC) if needed
+ * Connect phone and PC with USB cable
+ * "Run" your app, select device (should be auto-detected)
+ * Installs app and starts it (verify this happened)
+
+Running on Emulator
+ * AVD = Android Virtual Device
+ * Select existing AVD for quick start
+ * Create custom AVD for advanced usage
+ * "Run" your all, select AVD => will be slow to start
+ * Note: If "N Preview" causes render issues, select different device from drop-down.
+ * [Troubleshooting the Emulator](https://docs.google.com/document/d/1w1Xn_hnSAODAAtdRDp7haYPBtEwX_l7Htpf8Wpgbu6w/pub)
+
+Create the Birthday Card:
+ * Select Views
+ * Position Views (Relative Layouts allow overlapping)
+ * Style the Views
+
+
+Drawable Folder:
+ * Download image, move to drawable folder, add TextView, add ImageView with this source.
