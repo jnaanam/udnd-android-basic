@@ -152,5 +152,12 @@ Create the Birthday Card:
  * Style the Views
 
 
-Drawable Folder:
+Step 1: Drawable
  * Download image, move to drawable folder, add TextView, add ImageView with this source.
+
+Step 2: Positioning
+ * Use RelativeLayout positioning attributes (alignParentRight etc.) to move one TextView to bottom of screen
+
+Step 3: Styling
+
+
