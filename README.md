@@ -159,5 +159,9 @@ Step 2: Positioning
  * Use RelativeLayout positioning attributes (alignParentRight etc.) to move one TextView to bottom of screen
 
 Step 3: Styling
-
+ * Make text larger (36 sp for both)
+ * Set the font (fontFamily: "san-serif-light")
+ * Set text color (@android:color/white)
+ * Image Expanded to fit entire screen (scaleType: "centerCrop")
+ * Text should have spacing around it (margin: 20dp)
 
