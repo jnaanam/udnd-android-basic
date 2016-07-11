@@ -11,6 +11,7 @@ Rapid review of the Udacity Android Basic Nanodegree
  * [BLOG: Styling Android](https://blog.stylingandroid.com/)
  * [BLOG: Chris Banes](https://chris.banes.me/)
  * [PODCAST: Fragmented Podcast](http://fragmentedpodcast.com/)
+ * [Using Git/Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775?_ga=1.267064590.161325086.1468208758)
 
 
 
@@ -164,4 +165,11 @@ Step 3: Styling
  * Set text color (@android:color/white)
  * Image Expanded to fit entire screen (scaleType: "centerCrop")
  * Text should have spacing around it (margin: 20dp)
+
+EXERCISE: [Make Your Own Card](https://classroom.udacity.com/nanodegrees/nd803/parts/8031345401/modules/677455098475460/lessons/4034888704/concepts/43534185690923)
+
+# PROJECT: [Create a Single Screen App](https://classroom.udacity.com/nanodegrees/nd803/parts/8031345401/modules/677455098475461/lessons/6774550984239847/concepts/74065285400923)
+ * [Clean Project Files](https://d17h27t6h515a5.cloudfront.net/topher/2016/June/5769c116_1000-files-tutorial/1000-files-tutorial.pdf)
+ * [Review Project Rubric](https://review.udacity.com/?_ga=1.161019965.161325086.1468208758#!/rubrics/133/view)
+ * [Submit Project](https://classroom.udacity.com/nanodegrees/nd803/parts/8031345401/project)
 
