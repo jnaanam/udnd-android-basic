@@ -3,10 +3,12 @@ Rapid review of the Udacity Android Basic Nanodegree
 
 # Android Development For Beginners
 
-## Resources
+## RESOURCES
 
  * [Vocabulary Glossary](https://developers.google.com/android/for-all/vocab-words/)
  * [CheatSheet: Common Android Views](https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view)
+ * [CheatSheet: Java Data Types](https://d17h27t6h515a5.cloudfront.net/topher/2016/June/576abc77_java-data-types-cheat-sheet/java-data-types-cheat-sheet.pdf)
+ * [CheatSheet: Common Android Layouts](https://d17h27t6h515a5.cloudfront.net/topher/2016/June/576abcfc_layout-cheat-sheet/layout-cheat-sheet.pdf)
  * [Android Developers Documentation](https://developer.android.com)
  * [BLOG: Styling Android](https://blog.stylingandroid.com/)
  * [BLOG: Chris Banes](https://chris.banes.me/)
@@ -108,6 +110,18 @@ Documentation
 
 ## Lesson 1B: Building Layouts
 
+ViewGroups
+ * There can only be one root View
+ * ViewGroup is a specialized View that can contain other Views (parent)
+ * Contained views are "children" Views
+ * ViewGroup examples: LinearLayout,  RelativeLayout
+ * LinearLayout = Vertical/Horizontal (orientation) lays views out in sequence (column/row)
+ * RelativeLayout = positions children relative to each other and/or to the parent container
+ * Exercise: [Observations on XML](https://gist.github.com/anonymous/cd7fda2fa5c4062acb92)
+
+
+LinearLayout
+
 
 
 ## Practice Set 1
@@ -168,7 +182,7 @@ Step 3: Styling
 
 EXERCISE: [Make Your Own Card](https://classroom.udacity.com/nanodegrees/nd803/parts/8031345401/modules/677455098475460/lessons/4034888704/concepts/43534185690923)
 
-# PROJECT: [Create a Single Screen App](https://classroom.udacity.com/nanodegrees/nd803/parts/8031345401/modules/677455098475461/lessons/6774550984239847/concepts/74065285400923)
+## PROJECT 1: [Create a Single Screen App](https://classroom.udacity.com/nanodegrees/nd803/parts/8031345401/modules/677455098475461/lessons/6774550984239847/concepts/74065285400923)
  * [Clean Project Files](https://d17h27t6h515a5.cloudfront.net/topher/2016/June/5769c116_1000-files-tutorial/1000-files-tutorial.pdf)
  * [Review Project Rubric](https://review.udacity.com/?_ga=1.161019965.161325086.1468208758#!/rubrics/133/view)
  * [Submit Project](https://classroom.udacity.com/nanodegrees/nd803/parts/8031345401/project)
